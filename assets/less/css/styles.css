@@ -256,6 +256,28 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+.logo-readium {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 40;
+  height: 40;
+  background-color: #000;
+  overflow: hidden;
+  z-index: 99;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+.logo-readium .logo {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
