@@ -160,8 +160,8 @@ p {
 }
 .main-wrapper {
   background: #fff;
-  padding: 60px;
-  padding-right: 300px;
+  padding: 30px;
+  padding-right: 270px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -197,7 +197,7 @@ p {
   margin-bottom: 60px;
 }
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .main-wrapper .upper-row {
   position: relative;
@@ -221,8 +221,10 @@ p {
   margin-bottom: 10px;
   color: #97AAC3;
 }
+.main-wrapper .company a {
+  color: #97AAC3;
+}
 .main-wrapper .project-title {
-  font-size: 16px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
@@ -284,15 +286,15 @@ p {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
+    display: block;
+    /*float: left;*/
+    /*width: 30%;*/
     margin-bottom: 0;
   }
   .skillset .level-bar {
-    display: inline-block;
-    width: 70%;
-    float: left;
+    display: block;
+    /*width: 70%;*/
+    /*float: left;*/
     position: relative;
     top: 1px;
   }
@@ -311,3 +313,63 @@ used for profile image
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.details {
+  display: table;
+  margin: 0 auto;
+}
+
+.details ul {
+  padding-left: 16px;
+}
+
+.details li {
+  margin-bottom: 4px;
+}
+
+.experience-meta {
+  display: flex;
+}
+
+.experience-card {
+    padding: 12px;
+    border-bottom: 1px solid #4b6a7736;
+    margin-bottom: 20px;
+}
+
+.experience-card .logo-and-position {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  padding-right: 16px;
+}
+
+.experience-card .position {
+  color: #3F4650;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.experience-card .company-name {
+  color: #97AAC3;
+}
+
+.experience-card .duration {
+  color: #97AAC3;
+}
+
+.experience-card .content {
+  padding-left: 16px;
+  text-align: justify;
+  width: 100%;
+}
+
+.experience-card .logo {
+  padding: 0px 20px;
+  height: 50px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
