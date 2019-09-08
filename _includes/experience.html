@@ -1,78 +1,308 @@
 <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-        
-		<div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Membr of Technical Staff</h3>
-                            <div class="time">02/2018 - 08/2018</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Adobe, Noida</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Worked on the project Adobe Campaign as a frontend developer. I was held responsible for the production build server for user interface.</p>  
-                        <p>Worked on optimising performance of react based dashboard, made service to produce weekly reports for multiple platforms and standardising Adobe XDM (Experience Data Model) for Adobe Campaign to standardise data flow. </p>
-			<p> Part of Adobe Escape team, which organised cultural events for employees. Voluntarily made dashboard to track progress for various competitions.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-	
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Development Engineer</h3>
-                            <div class="time">07/2016 - 02/2018</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Zomato, Gurugram</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Worked on Zomato’s UI Kit and Payments UI kit written in React-Redux and TypeScript. Took care of it’s development using Docker and gulp tasks for transpiling the app.</p>  
-                        <p>Developed Zomato’s Alexa skill app running on Node server. It became the most requested skill on Alexa within the first week of it’s launch.</p>
-			<p>Worked on project PWA, Structured the api output in an optimised data structure to reduce the data flow. Increasing 20% of user traffic.</p>
-			<p>Part of AMP project, which aimed to reduce page load time for slower connections using Google’s AMP project. This reduced page load time from 3s to 1s.</p>
-			<p>Worked on preventing SQL injections and other vulnerabilities like XSS, CSRF token invalidation etc across Zomato, optimisations, lazy loading images across site, improving SQL queries with use of indexes.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Google Summer of Code student</h3>
-                            <div class="time">04/2015 - 08/2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">KDE e.V</div>
-                    </div><!--//meta-->
-                    <div class="details">
-			<p>Used Qt and Cantorlibs to build scripting capability inside LabPlot. CantorLibs was used to execute input by user and get the output.</p>
-			<p>Wrote parser for Python2, Python3, maxima and R in C++, which parse them to Columns of LabPlot.</p>
-			<p>Parser supported basic data structure like dictionary, arrays, lists etc which were translated into columns for LabPlot allowing dynamic plotting of graphs.</p>
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Season of KDE</h3>
-                            <div class="time">10/2014 - 01/2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">KDE e.V</div>
-                    </div><!--//meta-->
-                    <div class="details">
-			<p>KNetWalk is a KDE Game that was written in Qt4 and KDELibs4. I ported the game to Qt5 and KDE Frameworks 5 to have the compatibility to run on latest os shipping Qt5. This change attracted a lot of users who thanked me for the much needed port for KNetWalk.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Developer</h3>
-                            <div class="time">09/2013 - 11/2014</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Shiplock, Delhi</div>
-                    </div><!--//meta-->
-                    <div class="details">
-			<p>DTU startup, selected as their premier web developer for developing and managing their online e-commerce. Worked on designing database keeping in mind future goals and scalability. Built single dynamic dashboard with access layer to change the products and the information on the main site.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
+  {% if page.design == 'new' %}
+  <div class="experience-card">
+    <div class="logo-and-position">
+      <div class="logo">
+        <img style="max-width:100%;max-height:100%;" src="https://media.licdn.com/dms/image/C4E0BAQEYHoid1kvl1Q/company-logo_400_400/0?e=1576108800&amp;v=beta&amp;t=eSyecJSHCM-p5cis2TKGhSFIie4c-bFjcOLHWEW7yPM" alt="procol-logo">
+      </div>
+      <div class="position">
+        Product Manager
+        <a target="_blank" href="https://www.procol.in/"><div class="company-name">Procol</div></a>
+      </div>
+      <div class="duration">Feb 2019 - Jul 2019</div>
+    </div>
+    <ul class="content">
+      <li>Procol, a startup that raised  <b>$1 million</b> from Blume Ventures, is the all-in-one procurement software for commodity industry.</li>
+      <li>
+        Planned contract management and multi-line product auctions and guided a <b>team of six</b> to implement.
+      </li>
+      <li>
+        Expanded our reach to FMCG customers.
+      </li>
+      <li>Helped in acquiring contracts more than worth <b>₹70 lakhs</b></li>
+      <li>Optimised and strengthened our dashboard to <b>tripple our session length</b>.</li>
+      </li>
+    </ul>
+  </div>
+  {% else %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Product Manager</h3>
+        <div class="time">Feb 2019 - Jul 2019</div>
+      </div><!--//upper-row-->
+      <div class="company">
+        <a target="_blank" href="https://www.procol.in/">Procol Private Ltd, Gurugram</a>
+      </div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>Procol, a startup that raised  <b>$1 million</b> from Blume Ventures, is the all-in-one procurement software for commodity industry.</li>
+        <li>
+          Planned contract management and multi-line product auctions and guided a <b>team of six</b> to implement.
+        </li>
+        <li>
+          Expanded our reach to FMCG customers.
+        </li>
+        <li>Helped in acquiring contracts more than worth <b>₹70 lakhs</b></li>
+        <li>Optimised and strengthened our dashboard to <b>tripple our session length</b>.</li>
+        </li>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item -->
+  {% endif %}
+
+  {% if page.design == 'new' %}
+  <div class="experience-card">
+    <div class="logo-and-position">
+      <div class="logo">
+        <img style="max-width:100%;max-height:100%;" src="https://media.licdn.com/dms/image/C560BAQFmhwT1qT7TXg/company-logo_400_400/0?e=1576108800&amp;v=beta&amp;t=cU_fi4H8mlBthM3hYX0czYksLlCFDanXiWBlPfFHr2U" alt="procol-logo">
+      </div>
+      <div class="position">
+        Member of Technical Staff
+        <a target="_blank" href="https://www.adobe.com/in/marketing/campaign.html">
+          <div class="company-name">Adobe</div>
+        </a>
+      </div>
+      <div class="duration">Feb 2018 - Sept 2018</div>
+    </div>
+    <ul class="content">
+      <li>
+        Worked on Adobe Campaign, a product that helps you manage and deliver your online and offline campaigns.
+      </li>
+      <li>
+        Engineered deployment process of front-end repositories, <b>reducing deploy time to 5 mins</b>.
+      </li>
+      <li>
+        Orchestrated team, deployments and two of major releases when a <b>seven year experienced</b> developer was on subbaticle.
+      </li>
+      <li>
+        Voluntarily organised cultural events, competitions, and <b>aligned a project</b> with a team of three to track progress for various competitions as part of Adobe Escape team.
+      </li>
+    </ul>
+  </div>
+  {% else %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Membr of Technical Staff</h3>
+        <div class="time">Feb 2018 - Sept 2018</div>
+      </div><!--//upper-row-->
+      <div class="company">
+        <a target="_blank" href="https://www.adobe.com/in/marketing/campaign.html">Adobe, Noida</a>
+      </div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>
+          Worked on Adobe Campaign, a product that helps you manage and deliver your online and offline campaigns.
+        </li>
+        <li>
+          Engineered deployment process of front-end repositories, <b>reducing deploy time to 5 mins</b>.
+        </li>
+        <li>
+          Orchestrated team, deployments and two of major releases when a <b>seven year experienced</b> developer was on subbaticle.
+        </li>
+        <li>
+          Voluntarily organised cultural events, competitions, and <b>aligned a project</b> with a team of three to track progress for various competitions as part of Adobe Escape team.
+        </li>
+        <!-- <li><b>I was part of Adobe Campaign team, a product with a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels.</b></li>
+          <li>Helped the team deliver features from the very first week of joining, worked on automating the build and deployment process of our front-end repositories.</li>
+          <li>Helped a <b>seven year experienced</b> developer go on subbaticle by <b>taking upon the responsibilites</b> during the tenure.</li>
+          <li>Volunteered to Adobe Escape team, which organise cultural events for employees. Helped organise events, and made dashboard to track progress for various competitions.</li>-->
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+  {% endif %}
+
+  {% if page.design == 'new' %}
+  <div class="experience-card">
+    <div class="logo-and-position">
+      <div class="logo">
+        <img style="max-width:100%;max-height:100%;" src="https://media.licdn.com/dms/image/C510BAQFrwCTLHGW7PQ/company-logo_400_400/0?e=1576108800&v=beta&t=C4wrndR01ZRLfGfKTRgTHeSbfTwsXu2z3VdHX1B1cqI" alt="procol-logo">
+      </div>
+      <div class="position">
+        SDE
+        <a target="_blank" href="https://zomato.com"><div class="company-name">Zomato</div></a>
+      </div>
+      <div class="duration">July 2016 - Feb 2018</div>
+    </div>
+    <ul class="content">
+      <li>
+        <b>Initiated</b> to break Zomato's website into UI kit, planned and delivered it with a team of three engineers and designers.
+      </li>
+      <li>
+        <b>Designed and developed</b> Zomato's Alexa skill, It became the <b>most requested skill on Alexa</b> and brought in a lot of marketing by Amazon.
+      </li>
+      <li>
+        Revamped mobile website into PWA, increasing user rettention and driving more users to our mobile Apps.
+      </li>
+      <li>
+        Introduced AMP project to reduce page load time to less than a second,
+        increasing user satisfaction with slow internet connection.
+      </li>
+      <li>
+        Enhanced security, optimised image loading, redisigned sql quries and standardised APIs.
+      </li>
+    </ul>
+  </div>
+  {% else %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Software Development Engineer</h3>
+        <div class="time">July 2016 - Feb 2018</div>
+      </div><!--//upper-row-->
+      <div class="company">
+        <a href="https://zomato.com">Zomato, Gurugram</a>
+      </div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>
+          <b>Initiated</b> to break Zomato's website into UI kit, planned and delivered it with a team of three engineers and designers.
+        </li>
+        <li>
+          <b>Designed and developed</b> Zomato's Alexa skill, It became the <b>most requested skill on Alexa</b> and brought in a lot of marketing by Amazon.
+        </li>
+        <li>
+          Revamped mobile website into PWA, increasing user rettention and driving more users to our mobile Apps.
+        </li>
+        <li>
+          Introduced AMP project to reduce page load time to less than a second,
+          increasing user satisfaction with slow internet connection.
+        </li>
+        <li>
+          Enhanced security, optimised image loading, redisigned sql quries and standardised APIs.
+        </li>
+        <!--<li>
+          <b>Initiated the project</b> to break Zomato's website into UI kit, a set react components library for Zomato.
+          <b>Worked with designers</b> to break the design into basic elements, structured the components structure,
+          <b>lead and delivered it with a team of three engineers</b>.
+          </li>
+          <li>
+          Worked on launching Zomato's Alexa skill, took complete ownership from designing the user flow,
+          set of features, designing the technical architecture and developing it with a team of three.
+          It became the <b>most requested skill on Alexa</b> within the first week of it’s launch.
+          </li>
+          <li>
+          Zomato decided to make mobile web into PWA to increase users retention and to drive more traffic from it to our APP.
+          Contributed to this project with a team of five. Designed Zomato's redux structure, structured our API's.
+          This project lead to an <b>increase in user traffic by 20%</b>
+          </li>
+          <li>
+          Worked on AMP project from scratch to <b>reduce page load time</b> from more than three seconds <b>to less than a second</b>.
+          This led to an increase in bounce rate, which was expected as people got access to the info they were looking for quicker.
+          </li>
+          <li>
+          Apart from the above responsibilities I worked on preventing SQL injections and other vulnerabilities like XSS,
+          CSRF token invalidation etc across Zomato, lazy loading images across site, improving SQL queries with use of indexes.
+          </li>-->
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+  {% endif %}
+
+  {% if page.design == 'new' %}
+  <div class="experience-card">
+    <div class="logo-and-position">
+      <div class="logo">
+        <img style="max-width:100%;max-height:100%;" src="https://media.licdn.com/dms/image/C4D0BAQEN8UZ-xyJYuQ/company-logo_400_400/0?e=1576108800&v=beta&t=CL7y0LvfmDr7j2ksWxWacUrma_rz-SKjKW71wedq4C0" alt="procol-logo">
+      </div>
+      <div class="position">
+        KDE e.V
+      </div>
+      <div class="duration">Apr 2015 - Aug 2016</div>
+    </div>
+    <ul class="content">
+      <li>
+        <b style="color: #1d99f3;">Google Summer Of Code Student, Mentor and contributor</b>
+      </li>
+      <li>
+        <b>Mentored</b> a student in 2016 to work on adding histograms support inside LabPlot.
+        Helped student clear the evaluation of GSOC.
+      </li>
+      <li>
+        <b>Proposed</b> a project to integrate cantor (a powerfull tool for scripting languages)
+        with LabPlot (a scientific data plotter application).
+      </li>
+      <li>
+        Expected people to use scripting languages to filter out the noise from data and plot it using LabPlot.
+        Successfully completed the project which led to <b>eventual merger of the two applications</b> over the years.
+      </li>
+      <li>
+        <b>Proposed</b> to port the game KNetWalk to Qt5 (a widget toolkit for creating cross-platform applications).
+        because it offered performance improvements and Qt4 was depriciating.
+      </li>
+      <li>
+        <b>Result:</b> Game ported, with KnetWalk user's thanking me for the improved performance.
+      </li>
+    </ul>
+  </div>
+  {% else %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Google Summer of Code student</h3>
+        <div class="time">Apr 2015 - Aug 2015</div>
+      </div><!--//upper-row-->
+      <div class="company">KDE e.V</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>
+          <b>Proposal:</b> A project to integrate cantor (a powerfull tool which gives access to sheets to run scripting languages)
+          with LabPlot (a scientific data plotter application).
+          The expected result was to use cantor's session data as to plot graphs inside labplot.
+        </li>
+        <li>
+          <b>Use case:</b> People use scripting languages to filter out the noise from data and plot it using LabPlot. 
+        </li>
+        <li>Successfully completed the project which led to <b>eventual merger of the two applications</b> over the years.</li>
+      </ul>
+
+    </div><!--//details-->
+  </div><!--//item-->
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Season of KDE</h3>
+        <div class="time">Oct 2014 - Jan 2015</div>
+      </div><!--//upper-row-->
+      <div class="company">KDE e.V</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>
+          <b>Proposal:</b> Port the game KNetWalk to latest version of Qt (a widget toolkit for creating cross-platform applications)
+        </li>
+        <li>
+          <b>Why?</b>  Qt4 was getting legacy and depriciated, while Qt5 offered a lot of performance improvements.
+        </li>
+        <li><b>Result:</b>Game ported, with KnetWalk user's thanking me for the improved performance.</li>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+  {% endif %}
+
+  {% if page.design == 'old' %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">Software Developer</h3>
+        <div class="time">Sept 2013 - Nov 2014</div>
+      </div><!--//upper-row-->
+      <div class="company">Shiplock, Delhi</div>
+    </div><!--//meta-->
+    <div class="details">
+      <ul>
+        <li>DTU startup, selected as their premier web developer for developing and managing their online e-commerce. Worked on designing database keeping in mind future goals and scalability. Built single dynamic dashboard with access layer to change the products and the information on the main site.</li>
+      </ul>
+    </div><!--//details-->
+  </div><!--//item-->
+  {% endif %}
+
+</section><!--//section-->
