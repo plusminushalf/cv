@@ -1,5 +1,5 @@
 <section class="section experiences-section">
-  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Relevant Experiences</h2>
 
   {% if page.design == 'new' %}
   <div class="experience-card">
@@ -14,16 +14,14 @@
       <div class="duration">Feb 2019 - Jul 2019</div>
     </div>
     <ul class="content">
-      <li>Procol, a startup that raised  <b>$1 million</b> from Blume Ventures, is the all-in-one procurement software for commodity industry.</li>
+      <li>Procol, a startup that raised  <b>$1 million</b>, is the all-in-one procurement software for commodity industry.</li>
       <li>
         Planned contract management and multi-line product auctions and guided a <b>team of six</b> to implement.
       </li>
       <li>
-        Expanded our reach to FMCG customers.
-      </li>
-      <li>Helped in acquiring contracts more than worth <b>₹70 lakhs</b></li>
+        Expanded our reach to FMCG customers. Helped in acquiring contracts more than worth <b>₹70 lakhs</b></li>
       <li>Optimised and strengthened our dashboard to <b>tripple our session length</b>.</li>
-      </li>
+      <li>Helped in hiring new engineers in the team.</li>
     </ul>
   </div>
   {% else %}
@@ -70,7 +68,7 @@
     </div>
     <ul class="content">
       <li>
-        Worked on Adobe Campaign, a product that helps you manage and deliver your online and offline campaigns.
+        Worked on Adobe Campaign, a product that helps you deliver your online and offline campaigns.
       </li>
       <li>
         Engineered deployment process of front-end repositories, <b>reducing deploy time to 5 mins</b>.
@@ -205,7 +203,7 @@
   </div><!--//item-->
   {% endif %}
 
-  {% if page.design == 'new' %}
+  {% if page.design == 'new_depriciated' %}
   <div class="experience-card">
     <div class="logo-and-position">
       <div class="logo">
@@ -241,7 +239,7 @@
       </li>
     </ul>
   </div>
-  {% else %}
+  {% elsif page.design == 'old' %}
   <div class="item">
     <div class="meta">
       <div class="upper-row">

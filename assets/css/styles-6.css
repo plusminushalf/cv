@@ -65,8 +65,9 @@ p {
   height: 100%;
   min-height: 800px;
   color: #fff;
+  margin-top: 100px;
 }
-.sidebar-wrapper a {
+.header a {
   color: #fff;
 }
 .sidebar-wrapper .profile-container {
@@ -75,13 +76,14 @@ p {
   text-align: center;
   color: #fff;
 }
-.sidebar-wrapper .name {
+.header .name {
   font-size: 32px;
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 10px;
+  color: white;
 }
-.sidebar-wrapper .tagline {
+.header .tagline {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-weight: 400;
@@ -91,18 +93,20 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .fa {
+.header .contact-list .fa {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
+  color: white;
 }
-.sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
+.header .contact-list li {
+  margin-right: 15px;
+  float: left;
 }
-.sidebar-wrapper .contact-list li:last-child {
+.header .contact-list li:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .contact-list .email .fa {
+.header .contact-list .email .fa {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
@@ -372,4 +376,10 @@ used for profile image
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 16px 30px;
 }
